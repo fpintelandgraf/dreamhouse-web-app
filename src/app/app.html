@@ -18,7 +18,7 @@
       <ion-list-header>
         Help
       </ion-list-header>
-      <button menuClose ion-item><ion-icon item-left name="calculator"></ion-icon>Mortgage Calculator</button>
+
       <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
         {{menuItem.title}}
