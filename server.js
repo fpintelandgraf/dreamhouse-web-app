@@ -8,6 +8,7 @@ const app = express();
 app.use(express.static('www'));
 app.use(express.static(path.join('www', 'build')));
 
+
 app.use(bodyParser.json());
 
 
