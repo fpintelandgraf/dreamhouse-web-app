@@ -11,7 +11,6 @@ app.use(express.static(path.join('www', 'build')));
 
 app.use(bodyParser.json());
 
-
 const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/dreamhouse';
 
 if (process.env.DATABASE_URL !== undefined) {
